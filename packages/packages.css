@@ -1,0 +1,95 @@
+main {
+  padding-top: 2rem;
+}
+
+.background {
+  background: url("../images/plans-background.jpg") center/cover;
+  filter: grayscale(40%);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+.plan {
+  border: 5px solid #0e4f1f;
+  border-left: none;
+  margin: 1.1rem 0;
+  width: 80%;
+  position: relative;
+}
+
+.plan:hover,
+.plan:active {
+  border-color: red;
+  border-left: none;
+  box-shadow: 3px 3px 10px #5e6266;
+}
+
+#free:hover,
+#free:active {
+  border-left-color: red;
+}
+
+.plan a {
+  text-decoration: none;
+  display: block;
+  padding: 2rem;
+}
+
+.plan-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1.1rem;
+  font-size: 0.9rem;
+  color: white;
+  background: #ff5454;
+  padding: 0.8rem;
+}
+
+.plan-preffered {
+  color: #6c757d;
+}
+
+.plan .plan-title {
+  color: black;
+  font-weight: bold;
+}
+
+.plan-description {
+  background: white;
+  /* margin: 10px; */
+  padding: 1rem;
+  border: 2px solid #0e4f1f;
+  color: #0e4f1f;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#plus {
+  background: #d5ffdc;
+}
+
+#free {
+  background: #e6f1e8;
+  float: right;
+  border-right: none;
+  border-left: 5px solid #0e4f1f;
+  text-align: right;
+}
+
+#premium {
+  background: #0e4f1f;
+}
+#premium .plan-title {
+  color: white;
+}
+
+#premium .plan-preffered {
+  color: #bdc5cc;
+}
