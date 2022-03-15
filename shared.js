@@ -4,7 +4,7 @@ const selectPlanButtons = document.querySelectorAll('.plan button');
 const modalNoButton = document.querySelector('.modal__action--negative');
 const toggleButton = document.querySelector('.toggle-button');
 const mobileNav = document.querySelector('.mobile-nav');
-console.dir(selectPlanButtons);
+
 
 // console.log(modal);
 
