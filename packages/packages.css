@@ -64,6 +64,7 @@ main {
   color: #0e4f1f;
   font-size: 1.1rem;
   font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 
 .clearfix {
