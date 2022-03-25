@@ -17,6 +17,7 @@ main {
   margin: 1.1rem 0;
   width: 80%;
   position: relative;
+  overflow: hidden;
 }
 
 .plan:hover,
@@ -40,11 +41,15 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 1.1rem;
+  margin: 0;
   font-size: 0.9rem;
   color: white;
   background: #ff5454;
   padding: 0.8rem;
+  transform: rotateZ(45deg) translateX(3.5rem) translateY(-1rem);
+  transform-origin: center;
+  width: 12rem;
+  text-align: center;
 }
 
 .plan-preffered {

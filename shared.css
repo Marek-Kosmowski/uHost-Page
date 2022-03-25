@@ -16,8 +16,6 @@ body {
   height: 100%;
 }
 
-
-
 .backdrop {
   position: fixed;
   display: none;
@@ -207,6 +205,11 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+.open {
+  display: block !important;
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
 
 .button:hover,
 .button:active {
@@ -224,6 +227,11 @@ body {
   background: #ccc;
   color: #a1a1a1;
 }
+
+/* .open {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+} */
 
 @media (min-width: 40rem) {
   .toggle-button {

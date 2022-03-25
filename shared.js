@@ -14,6 +14,8 @@ const selectAllPlanButton = function () {
         selectPlanButtons[i].addEventListener('click', () => {
             modal.style.display = 'block';
             backdrop.style.display = 'block';
+            modal.classList.add('open');
+            backdrop.classList.add('open');
         })
     }
 }
@@ -24,6 +26,8 @@ const closeModal = function () {
     }
     backdrop.style.display = 'none';
     mobileNav.style.display = 'none';
+    modal.classList.remove('open');
+    backdrop.classList.remove('open');
 }
 
 
