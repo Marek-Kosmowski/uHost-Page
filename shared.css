@@ -109,6 +109,10 @@ body {
   border-bottom: 5px solid white;
 }
 
+.main-nav__item--cta {
+  animation: wiggle 400ms 3s 8 none;
+}
+
 /* .main-nav__item a:active {
     color: white;
   } */
@@ -249,5 +253,25 @@ body {
 @media (max-width: 40rem) {
   .main-nav__items {
     display: none;
+  }
+}
+/* Adding animation: */
+/* @keyframes wiggle {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(10deg);
+  }
+} */
+@keyframes wiggle {
+  0% {
+    transform: rotateZ(0);
+  }
+  50% {
+    transform: rotateZ(-10deg);
+  }
+  100% {
+    transform: rotateZ(10deg);
   }
 }
